@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Header styles */
+header {
+    background-color: #333;
+    padding: 20px 0;
+    text-align: ;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    flex-shrink: 0;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:  10;
+    background-color: palegoldenrod; /* Background color for the entire page */
+    display: flex;
+    flex-direction: column;
+    max-width: 300;
+    min-height: 100vh;
+
+}
+
+h1{
+    color: aqua;
+}
+h2 {
+    color:  darkblue;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    display: table;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    position: absolute
+    padding: 10px;
+    float: left;
+    width:  100%; 
+    max-width:  300;
+    height: auto;
+    display: table-row;
+    text-align: center;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 8px;
+    background-color: #96c93d; 
+    font-weight: bold;
+    text-align: center;
+}
